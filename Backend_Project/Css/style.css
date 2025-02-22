@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.navbar1{
+  
+    background-color:rgba(255, 255,255, .1);
+    backdrop-filter: blur(10px);
+   
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.695);
+    
+}
+
+.hero-main{
+    height:500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(../images/background/lw2\ 1.png);
+}
+
+
+.s{
+    padding: 10%;
+}
+.hb{
+border-radius: 15px;
+border: none;
+background-color: black;
+color:white;
+width: 45%;
+height:35px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+
+}
+/* benefits sec properties */
+.benefit{
+   background-color:rgb(253, 253, 253);
+    height:100%}
+
+.sec2{
+    /* background: rgb(29,119,61); */
+/* background: linear-gradient(180deg, rgba(29,119,61,1) 23%, rgba(255, 255, 255, 0.537) 100%); */
+}
+/* cards in benefits sec */
+.ben1{
+    width: 70%;
+    height: 160px;
+    border: 0.2px solid gray;
+    text-align: center;
+    border-radius: 7%;
+    margin-top: 4%;
+    padding: 3%;
+    font-size:medium;
+}
+
+.ben1:hover{
+    background-color: #bce652;
+    color: white;
+    border: 5px solid ;
+    /* box-shadow: rgb(73, 73, 73); */
+}
+.ben1 img{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+}
+.ben1 p{
+    margin-top: 10%;
+}
+.ben-main{
+    padding: 10%;
+}
+.bmt{
+    font-size:26px;
+    font-weight: 500;}
+
+.comm{
+  
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.comm1{
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* padding-top: 8%; */
+    /* justify-items: center; */
+}
+.comm2{
+    /* border: 2px solid rgb(55, 255, 0); */
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* justify-self: center; */
+}
+.img-com{
+    width: 80%;
+    height:90%;
+    /* padding-bottom: 20px    ; */
+}
+.comm-btn{
+    width:100%;
+    margin-bottom: 20px;    
+}
+.h1-1{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.h1-2{
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+/* about  section */
+.btn-exp{
+    width: 100%;
+}
+.about{
+    text-align: justify;
+}
+
+/*  ------------------------------------*/
+
+.button-group{
+    text-align: left;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.button-group .button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: all 0.4s;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* background-color: #7ae652 */
+}
+
+.active1{
+    background-color: #4a954a;
+    color: white;
+}
+
+section .button-group .button:hover{
+    background-color: #4a954a;
+    color: white;
+}
+
+.gallery{
+    width:100%;
+    display: flex;
+    
+   /* padding: 1%; */
+    /* border: 2px solid red; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.gallery .item{
+    position: relative;
+    /* margin: 4px; */
+    
+    margin-top: 5px;
+    height: fit-content;
+    border: 0.5px solid rgb(190, 187, 187);
+
+    width: 90%;
+    /* box-shadow: 5px 5px 0px 0px rgba(170, 170, 170, 0.75); */
+    /* border: 2px solid blue; */
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.product{
+    background-image: url(../images/background/bgleft.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+    border: 0.5px solid rgb(198, 198, 198);
+    height: 280px;
+    margin: 3%;;
+    
+}
+.gallery{
+    padding: 6%;
+}
+.tag{
+    /* display: none; */
+    position:absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #79c782;
+    border-radius: 30px;
+    width: 40%;
+    text-align: center;
+    opacity: 0;
+  /* transition: 0.6s ease; */
+    
+}
+
+
+.product:hover{
+    .tag{
+        /* display: block; */
+        transition:all 300ms ease-in ;
+        opacity: 1;
+    }
+
+    .product img{
+        transform: scale(1.2);
+    }
+}
+.ri-heart-line:hover{
+    border: none;
+    color: rgb(255, 46, 46);
+}
+/*  ------------------------------------*/
+/*  */
+.swp2 {
+    width: 100%;
+    /* height: 200px; */
+    padding: 2%;
+  }
+  
+  .swipslide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .swiper{
+
+    
+  --swiper-pagination-color: #3d8f47;
+  /* --swiper-pagination-bullet-inactive-color: "#999999"; */
+  }
+  .swpbtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .ri-account-circle-fill{
+    color: #4DA758;
+  }
+/*  */
+
+
+/* footer */
+.footer-main{
+    background: rgb(91, 178, 85);
+background: linear-gradient(0deg, rgba(91, 178, 85,1) 29%, rgba(0,0,0,0) 65%);
+}
+.footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.footer div {
+    width: 100%;
+    text-align: center;
+    /* padding: 10px 0; */
+}
+
+.foot-logo {
+    width: 80px;
+    height: 70px;
+    filter: drop-shadow(100px 0px 26px #fbf8f8);
+}
+
+.foot-in {
+    flex-direction: column;
+    text-align: center;
+}
+.foot-in a{
+    color: black;
+    margin-top: 5px;
+    /* margin-bottom: ; */
+}
+.foot-rights{
+    padding-bottom: 20px;
+}
+@media(min-width:768px){
+
+
+    
+    
+    .hero-main{
+        background-size: 100% 100%;
+    }
+    .s{
+        /* margin-top: 7%; */
+        width: 65%;
+    }
+    .ben-sub{
+        display: flex;
+        justify-content: center ;
+    }
+    .bmt{
+        font-size:34px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .gallery .item{
+        width:40%;
+        margin-left: 4%;
+    }
+
+   /* community */
+
+   .comm{
+  
+    /* display: flex; */
+    flex-direction: row;
+    
+    
+}
+.comm1{
+    /* height: 100%; */
+    width: 50%;
+    padding: 3%;
+    text-align: left;
+    /* border: 2px solid red; */
+    /* padding-top: 8%; */
+    /* justify-items: center; */
+}
+.comm2{
+    /* border: 2px solid rgb(55, 255, 0); */
+
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    /* justify-self: center; */
+}
+   .comm-btn{
+    width:50%;
+    margin-bottom: 20px;    
+}
+/* about section */
+.btn-exp{
+    width: 70%;
+}
+
+    /*footer  */
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .foot-logo {
+        width: 90px;
+        height: 80px;
+    }
+
+    .foot-in {
+        flex-direction: row;
+        text-align: center;
+    }
+    /*  */
+
+}
+
+@media(min-width:992px){
+    .s{
+        padding: 4%;
+        width: 50%;
+    }
+    .hero-main{
+       background-size: 100vw 130%;
+       background-position: bottom;
+       height: 675px;
+    }
+    .hb{
+        width: 30%;
+    }
+    .benefit{
+        /* width: 18%; */
+        /* height: 150px; */
+    
+        background-image: url(../images/background/Group\ 11\ \(2\).png);
+        background-position:bottom right;
+        background-position-x: 95%;
+        background-size: 35% 80%;
+        background-repeat: no-repeat;
+        /* border: 2px solid red; */
+        /* height:590px} */
+    
+    }
+
+    .ben1{
+        width: 20%;
+        height: 180px;
+        border: 1px solid gray;
+        text-align: center;
+        border-radius: 7%;
+        margin-top: 4%;
+        padding: 1%;
+        font-size: large;
+    }
+    .ben-main{
+        padding: 4%;
+        width: 65%;
+    }
+    .ben-sub{
+       flex-direction: column;
+       
+    }
+
+    .bmt{
+        text-align: left;
+        font-size: 37px;
+    }
+
+    .product{
+        height: 40%;
+    }
+    .gallery .item{
+        /* margin-top: 15px; */
+        margin: 10px;
+        width: 18%;
+        /* border: 2px solid black; */
+        height: fit-content;
+    }
+    .gallery{
+        width: 95%;
+        padding: 0%;
+    }
+    /* .foot-in{
+        width: 50%;
+    } */
+
+/* about section */
+
+.btn-exp{
+    width: 25%;
+}
+
+    /* community */
+.h1-1{
+    font-size: 80px; 
+    font-weight: 800;
+}
+
+.h1-2{
+    font-size: 80px; 
+    font-weight: 800;
+}
+
+.img-com{
+    width: 80%;
+    height:90%;
+    /* padding-bottom: 20px    ; */
+}
+
+    /* footer */
+
+    .footer {
+        height: 120px;
+    }
+
+    .footer div {
+        width: 32%;
+    }
+
+    .foot-logo {
+        width: 100px;
+        height: 90px;
+    }
+
+    .foot-rights {
+        padding-top: 15px;
+    }
+    /*  */
+}
+
+@media (min-width: 1024px) {
+    /* Original styles you've already created can apply here */
+    .footer{
+
+        height: 100px;
+        /* border: 1px solid red; */
+    }
+    
+    .footer div{
+        width: 32%;
+        /* padding-top: 30px; */
+    }
+    .foot-logo{
+        width: 100px;
+        height: 90px;;
+        padding: 10px;
+    }
+    
+    .foot-rights{
+        border-top: 0.5px solid rgb(78, 78, 78);
+        
+    }
+    .foot-rights p, a{
+        padding-top: 10px;
+    }
+    .foot-in{
+        width: 100%;
+    }
+    .foot-in a{
+        text-decoration: none;
+        color: black;
+    }
+}
